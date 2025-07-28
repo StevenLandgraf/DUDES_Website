@@ -4,28 +4,20 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+<meta name="description" content="DUDES introduces a simple and efficient approach for predictive uncertainty estimation in semantic segmentation using student-teacher distillation with Deep Ensembles. It captures reliable uncertainties with a single forward pass.">
+<meta property="og:title" content="DUDES: Deep Uncertainty Distillation using Ensembles for Semantic Segmentation"/>
+<meta property="og:description" content="We present DUDES, an efficient uncertainty quantification method for semantic segmentation that distills Deep Ensemble uncertainties into a single student model via distillation, combining simplicity, adaptability, and strong performance."/>
+  <meta property="og:url" content="https://stevenlandgraf.github.io/DUDES_Website/"/>
+  <meta property="og:image" content="static/images/icon.png" />
+  <meta property="og:image:width" content="512"/>
+  <meta property="og:image:height" content="512"/>
 
-
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
-  <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="keywords" content="semantic segmentation, uncertainty estimation, deep ensembles, student-teacher distillation, deep learning, model calibration, Cityscapes, Pascal VOC, out-of-domain detection, DUDES">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-  <title>Rethinking Semi-supervised Semantic Segmentation Beyond Accuracy: Reliability and Robustness</title>
-  <link rel="icon" type="image/x-icon" href="static/images/github.svg">
+  <title>DUDES: Deep Uncertainty Distillation using Ensembles for Semantic Segmentation</title>
+  <link rel="icon" type="image/x-icon" href="static/images/icon.png">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -52,11 +44,13 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Rethinking Semi-supervised Segmentation Beyond Accuracy: Reliability and Robustness</h1>
+            <h1 class="title is-1 publication-title">DUDES: Deep Uncertainty Distillation using Ensembles for Semantic Segmentation</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
                 <a href="https://scholar.google.com/citations?user=7DOqcXkAAAAJ&hl=en" target="_blank">Steven Landgraf</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com/citations?user=P8p0BNcAAAAJ&hl=de" target="_blank">Kira Wursthorn</a>,</span>
                 <span class="author-block">
                   <a href="https://scholar.google.com/citations?user=_qfDWfUAAAAJ&hl=en" target="_blank">Markus Hillemann</a>,</span>
                   <span class="author-block">
@@ -65,53 +59,32 @@
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Machine Vision Metrology (MVM)<br>Institute of Photogrammetry and Remote Sensing (IPF)<br>Karlsruhe Institute of Technology (KIT)<br>German Conference on Pattern Recognition (GCPR) [2025]</span>
+                    <span class="author-block">Machine Vision Metrology (MVM)<br>Institute of Photogrammetry and Remote Sensing (IPF)<br>Karlsruhe Institute of Technology (KIT)<br> PFG Journal of Photogrammetry, Remote Sensing and Geoinformation Science [2024]</span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Corresponding Author</small></span>
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <!-- <span class="link-block">
-                        <a href="https://arxiv.org/pdf/2506.05917" target="_blank"
+                         <!-- PDF link -->
+                      <span class="link-block">
+                        <a href="https://link.springer.com/article/10.1007/s41064-024-00280-4" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
                         <span>Paper</span>
                       </a>
-                    </span> -->
-
-                    <!-- Supplementary PDF link -->
-                    <!-- <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span> -->
-
+                    </span>
                   <!-- Github link -->
-                  <!-- <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                  <span class="link-block">
+                    <a href="https://github.com/StevenLandgraf/DUDES" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
                     <span>Code</span>
                   </a>
-                </span> -->
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/pdf/2506.05917" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
+                </span>
                 </a>
               </span>
             </div>
@@ -122,24 +95,6 @@
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<!-- <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
-        <!-- Your video here -->
-        <!-- <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section> -->
-<!-- End teaser video -->
-
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
@@ -148,24 +103,14 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Semantic segmentation is critical for scene understanding
-            but demands costly pixel-wise annotations, attracting increasing attention to semi-supervised approaches to leverage abundant unlabeled data.
-            While semi-supervised segmentation is often promoted as a path toward
-            scalable, real-world deployment, it is astonishing that current evaluation
-            protocols exclusively focus on segmentation accuracy, entirely overlooking reliability and robustness. These qualities, which ensure consistent
-            performance under diverse conditions (robustness) and well-calibrated
-            model confidences as well as meaningful uncertainties (reliability), are
-            essential for safety-critical applications like autonomous driving, where
-            models must handle unpredictable environments and avoid sudden failures at all costs. To address this gap, we introduce the Reliable Segmentation Score (RSS), a novel metric that combines predictive accuracy,
-            calibration, and uncertainty quality measures via a harmonic mean. RSS
-            penalizes deficiencies in any of its components, providing an easy and
-            intuitive way of holistically judging segmentation models. Comprehensive evaluations of UniMatchV2 against its predecessor and a supervised
-            baseline show that semi-supervised methods often trade reliability for
-            accuracy. While out-of-domain evaluations demonstrate UniMatchV2's
-            robustness, they further expose persistent reliability shortcomings. We
-            advocate for a shift in evaluation protocols toward more holistic metrics
-            like RSS to better align semi-supervised learning research with real-world
-            deployment needs.
+            The intersection of deep learning and photogrammetry unveils a critical need for balancing the power of deep neural networks with interpretability and trustworthiness, 
+            especially for safety-critical application like autonomous driving, medical imaging, or machine vision tasks with high demands on reliability. 
+            Quantifying the predictive uncertainty is a promising endeavour to open up the use of deep neural networks for such applications. 
+            Unfortunately, most current available methods are computationally expensive. In this work, we present a novel approach for efficient and reliable uncertainty estimation for semantic segmentation, 
+            which we call Deep Uncertainty Distillation using Ensembles for Segmentation (DUDES). DUDES applies student-teacher distillation with a Deep Ensemble 
+            to accurately approximate predictive uncertainties with a single forward pass while maintaining simplicity and adaptability. 
+            Experimentally, DUDES accurately captures predictive uncertainties without sacrificing performance on the segmentation task and indicates impressive capabilities of highlighting wrongly classified pixels 
+            and out-of-domain samples through high uncertainties on the Cityscapes and Pascal VOC 2012 dataset. With DUDES, we manage to simultaneously simplify and outperform previous work on Deep-Ensemble-based Uncertainty Distillation.
           </p>
         </div>
       </div>
@@ -183,21 +128,32 @@
         <div class="item">
           <!-- Center and resize the image -->
           <div class="has-text-centered">
-            <img src="static/images/Results_Quantitative.png" alt="MY ALT TEXT" style="max-width: 85%; height: auto;" />
+            <img src="static/images/method.pdf" alt="MY ALT TEXT" style="max-width: 85%; height: auto;" />
           </div>
           <h2 class="subtitle has-text-centered">
-            Quantitative comparison of the predictive performance (mIoU), calibration (ECE), and uncertainty (p(acc|cer), p(unc|inacc)) of the supervised baseline
-            and UniMatchV2 under increasing levels of fog and rain on the Foggy and Rainy Cityscapes datasets.
+            A schematic overview of the training process of the student model of DUDES. DUDES is an easy-to-adapt framework for efficiently estimating predictive uncertainty through student-teacher distillation. 
+            The student model simultaneously outputs a segmentation prediction alongside a corresponding uncertainty prediction. 
+            Training the student involves a regular segmentation loss with the ground truth labels and an additional uncertainty loss. 
+            As ground truth uncertainties, we compute the predictive uncertainty of a Deep Ensemble, thereby acting as the teacher.
           </h2>
         </div>
         <div class="item">
           <div class="has-text-centered">
-            <img src="static/images/Results_Qualitative.png" alt="MY ALT TEXT" style="max-width: 85%; height: auto;" />
+            <img src="static/images/uncertain_pixels_removed.pdf" alt="MY ALT TEXT" style="max-width: 85%; height: auto;" />
           </div>
           <h2 class="subtitle has-text-centered">
-            Qualitative comparison between the supervised and UniMatchV2 models
-            on the strongest perturbed versions of Foggy (top) and Rainy Cityscapes (bottom). Each row shows from left to right: Input image, ground truth, prediction,
-            and the corresponding uncertainty, computed using Shannon entropy.
+            Comparison between the student's and the teacher's mean Intersection over Union (mIoU). We progressively ignore an increasing percentage of pixels in the segmentation prediction
+             and simultaneously re-evaluated the mIoU. The pixels are sorted based on their predictive uncertainty in descending order, thus removing the most uncertain segmentation predictions first.
+          </h2>
+        </div>
+        <div class="item">
+          <div class="has-text-centered">
+            <img src="static/images/Qualitative_Examples.png" alt="MY ALT TEXT" style="max-width: 85%; height: auto;" />
+          </div>
+          <h2 class="subtitle has-text-centered">
+            Example images from the Cityscapes validation set (a) with corresponding ground truth labels (b), our student's segmentation predictions (c), a binary accuracy map (d), 
+            and the student's uncertainty prediction (e). White pixels in the binary accuracy map are either incorrect predictions or void classes. 
+            Latter appear black in the ground truth labels. For the uncertainty prediction, brighter pixels represent higher predictive uncertainties
           </h2>
         </div>
   </div>
@@ -214,15 +170,12 @@
         <h2 class="title is-3">Conclusion</h2>
         <div class="content has-text-justified">
           <p>
-            In this work, we addressed a critical blind spot in semi-supervised semantic segmentation: The lack of attention to model reliability and robustness. To fill this
-            gap, we introduced the Reliable Segmentation Score (RSS), which holistically
-            integrates accuracy, calibration, and uncertainty quality into a single metric
-            through the harmonic mean, penalizing poor performance in any component.
-            Through comprehensive evaluations on both in-domain and out-of-domain scenarios, we revealed that the current state-of-the-art UniMatchV2 achieves superior predictive performance and robustness but is often less calibrated and produces less reliable uncertainty estimates than its supervised counterpart. These
-            findings raise legitimate questions about whether incremental gains in segmentation accuracy reflect meaningful progress toward reliable and robust deployment.
-            We hope that our investigation and the proposed RSS metric serve as a stepping
-            stone toward more principled evaluation protocols that better align research objectives with real-world requirements, focusing not only on performance but also
-            on reliability and robustness.
+            In this work, we propose DUDES, an efficient and reliable uncertainty quantification method by applying student-teacher distillation that maintains simplicity and adaptability throughout the entire framework. 
+            We quantitatively demonstrated that DUDES accurately captures predictive uncertainties without sacrificing performance on the segmentation task. 
+            Additionally, qualitative results indicate impressive capabilities for the potential identification of wrongly classified pixels and out-of-domain samples through a simple uncertainty-based threshold. 
+            With DUDES, we managed to simultaneously simplify and outperform previous work on Deep-Ensemble-based uncertainty quantification.
+
+            We hope that DUDES encourages other researchers to incorporate uncertainties into state-of-the-art semantic segmentation approaches and to explore the usefulness of our proposed method for other tasks such as detection or depth estimation.
           </p>
         </div>
       </div>
@@ -231,96 +184,24 @@
 </section>
 <!-- End paper conclusion -->
 
-
-<!-- Youtube video -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container"> -->
-      <!-- Paper video. -->
-      <!-- <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video"> -->
-            <!-- Youtube embed code here -->
-            <!-- <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<!-- <section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
-            <!-- Your video file here -->
-            <!-- <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
-            <!-- Your video file here -->
-            <!-- <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
-            <!-- Your video file here -->
-            <!-- <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<!-- <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section> -->
-<!--End paper poster -->
-
-
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@article{landgraf2025rethinking,
-  title={Rethinking Semi-supervised Segmentation Beyond Accuracy: Reliability and Robustness},
-  author={Landgraf, Steven and Hillemann, Markus and Ulrich, Markus},
-  journal={arXiv preprint arXiv:2506.05917},
-  year={2025}
-}</code></pre>
+      <pre><code>@article{landgraf2024dudes,
+      title={Dudes: Deep uncertainty distillation using ensembles for semantic segmentation},
+      author={Landgraf, Steven and Wursthorn, Kira and Hillemann, Markus and Ulrich, Markus},
+      journal={PFG--Journal of Photogrammetry, Remote Sensing and Geoinformation Science},
+      volume={92},
+      number={2},
+      pages={101--114},
+      year={2024},
+      publisher={Springer}
+      }
+</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
-
-
   <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
@@ -338,12 +219,6 @@
     </div>
   </div>
 </footer>
-
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
 
   </body>
   </html>
